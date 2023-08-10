@@ -25,9 +25,7 @@ class Record:
         if phone_number not in self.phones:
             self.phones.append(phone_number)
 
-    # інші методи тут...
-
-
+   
     def delete_phone(self, phone):
         self.phones = [p for p in self.phones if p.value != phone]
 
